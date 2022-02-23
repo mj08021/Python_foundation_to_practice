@@ -7,4 +7,16 @@ from math import *
 light_speed = 300000
 distance = 40 * pow(10, 12)
 
-print(distance)
+# print(distance)
+
+seconds = distance / light_speed
+print("걸리는 시간(초) : ", seconds)
+
+light_year = seconds/(60*60*24*365)
+print(light_year)
+
+# 정수 10과 실수 10.0은 동일하다
+print(10 == 10.0)
+
+# 문자열 10과 실수 10.0은 완전히 다르다
+print("10" == 10.0)

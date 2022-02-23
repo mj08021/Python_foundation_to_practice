@@ -1,1 +1,1 @@
-exec(open("Part3/02_ex.py").read())
+exec(open("Part4/04_ex.py").read())
