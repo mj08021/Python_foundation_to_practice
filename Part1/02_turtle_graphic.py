@@ -1,6 +1,7 @@
 
 # 파이썬 터틀 모듈을 가져오고 있다.
 import turtle
+# from turtle import *
 
 # 그림을 그리기 위해서 캔버스(그리는 공간)을 불러온다.
 t = turtle.Pen()
